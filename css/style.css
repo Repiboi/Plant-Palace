@@ -80,6 +80,9 @@
 .sidebar{
   position: absolute;
   width: 30%;
+  scroll-behavior: smooth;
+  overflow-x: scroll;
+  height: 55%;
   border-radius: 5px;
   background-color: #eee;
   margin-left: 58.7rem;
@@ -347,6 +350,10 @@ section {
   flex-wrap: wrap;
   font-size: 20px;
   margin-left: 20px;
+}
+.fas fa-shopping-cart{
+  font-size:20px;
+  color:var(--white);
 }
 .fa-trash{
   margin-left: 50px;
